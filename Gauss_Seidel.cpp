@@ -97,7 +97,7 @@ int main()
     }
     cout << endl << "Final Values: " << endl;
     for (int i = 0; i < n; i++) {
-        cout << fixed << "x" << i << " = " << table[it - 1][i] << setw(16);
+        cout << fixed << "x" << i << " = " << table[it-1][i] << setw(16);
     }
     cout << endl << endl << "TABLE SHOWING X's VALUES ON EACH ITERATION";
     cout << endl << endl << "Iteration";
