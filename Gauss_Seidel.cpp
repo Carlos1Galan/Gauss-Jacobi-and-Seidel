@@ -1,7 +1,7 @@
 //Carlos A. Galan De Arce (L25)
 //Javier Gonzalez Martinez (L10)
 //CCOM 4065
-//Programa: Resuelve un sistema de equaciones lineales utilizando Gauss Seidel o Gauss 
+//Programa: Resuelve un sistema de equaciones lineales utilizando Gauss Seidel o Gauss Jacobi
 
 
 #include<iostream>
