@@ -3,6 +3,8 @@
 #include<math.h>
 
 
+
+
 using namespace std;
 
 void setfloat(float &);
@@ -20,9 +22,10 @@ int main()
     int method;
     cout<<"Enter the number of desired method to use :";
     cin>>method;
+    cout<<endl;
     do{
     switch(method){
-        case 1: {
+        case 1: {   cout<<"Using Gauss Jacobi Method:"<<endl;
                     cout<< setprecision(6)<< fixed;
                     int n;
                     float e;
@@ -45,6 +48,7 @@ int main()
                     break;
                 }
         case 2:{
+                    cout<<"Using Gauss Siedel Method:"<<endl;
                     float a[10][10],
                     b[10],
                     x[10],
